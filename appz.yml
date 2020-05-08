@@ -1,0 +1,29 @@
+app:
+  name: Kafka Operations
+  code: KAFKAOPS
+  notify: appzdev@cloudbourne.co
+    
+build:
+  version: 0.2
+  env: DEV
+  build_file: none
+  output_files: output/*.zip
+  image_template: kafkaops-0.2
+  image_name: alpha/kafkaops
+    
+deploy:
+  context: alpha/DEV
+  replicas: 1
+    
+monitor:
+  notify: appzops@cloudbourne.co      
+    
+properties:
+  KAFKA_PASSWORD: 
+    vault: KAFKA_PASSWORD
+  KAFKA_BROKER: kafka.appzdemo.com:9092
+  KAFKA_TOPICS: kafka123
+  KAFKA_USER: test
+  SECURITY_PROTOCOL: SASL_PLAINTEXT
+  SASL_MECHANISM: PLAIN
+  revision : 43
