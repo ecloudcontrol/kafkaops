@@ -21,9 +21,9 @@ monitor:
 properties:
   KAFKA_PASSWORD: 
     vault: KAFKA_PASSWORD
-  KAFKA_BROKER: kafka.appzdemo.com:9092
+  KAFKA_BROKER: kafka0.appzdemo.com:9092
   KAFKA_TOPICS: kafka123new
   KAFKA_USER: test
   SECURITY_PROTOCOL: SASL_PLAINTEXT
   SASL_MECHANISM: PLAIN
-  revision : 45
+  revision : 46
