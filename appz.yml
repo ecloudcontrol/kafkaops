@@ -22,7 +22,7 @@ properties:
   KAFKA_PASSWORD: 
     vault: KAFKA_PASSWORD
   KAFKA_BROKER: kafka0.appzdemo.com:9092
-  KAFKA_TOPICS: footopic
+  KAFKA_TOPICS: zebratopic1
   KAFKA_USER: test
   SECURITY_PROTOCOL: SASL_PLAINTEXT
   SASL_MECHANISM: PLAIN
