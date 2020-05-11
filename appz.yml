@@ -22,8 +22,8 @@ properties:
   KAFKA_PASSWORD: 
     vault: KAFKA_PASSWORD
   KAFKA_BROKER: kafka0.appzdemo.com:9092
-  KAFKA_TOPICS: zebratopic1
+  KAFKA_TOPICS: zzztopic
   KAFKA_USER: test
   SECURITY_PROTOCOL: SASL_PLAINTEXT
   SASL_MECHANISM: PLAIN
-  revision : 47
+  revision : 48
