@@ -26,4 +26,4 @@ properties:
   KAFKA_USER: test
   SECURITY_PROTOCOL: SASL_PLAINTEXT
   SASL_MECHANISM: PLAIN
-  revision : 52
+  revision : 24
