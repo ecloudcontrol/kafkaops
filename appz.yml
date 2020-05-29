@@ -21,8 +21,8 @@ monitor:
 properties:
   KAFKA_PASSWORD: 
     vault: KAFKA_PASSWORD
-  KAFKA_BROKER: 10.42.111.133:31110
-  KAFKA_TOPICS: zzztest123
+  KAFKA_BROKER: kafka-0.kafka.staging-kafka-operator.svc.cluster.local:9092
+  KAFKA_TOPICS: zztest123
   KAFKA_USER: test
   SECURITY_PROTOCOL: SASL_PLAINTEXT
   SASL_MECHANISM: PLAIN
